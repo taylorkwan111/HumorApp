@@ -7,18 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C13C30BF1E6CF05B006535BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C13C30BE1E6CF05B006535BC /* main.m */; };
-		C13C30C21E6CF05B006535BC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C13C30C11E6CF05B006535BC /* AppDelegate.m */; };
 		C13C30CA1E6CF05B006535BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C13C30C91E6CF05B006535BC /* Assets.xcassets */; };
 		C13C30D81E6CF05B006535BC /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C13C30D71E6CF05B006535BC /* _____Tests.m */; };
 		C13C30E31E6CF05B006535BC /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C13C30E21E6CF05B006535BC /* _____UITests.m */; };
-		C13C30F21E6D001E006535BC /* DWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C13C30F11E6D001E006535BC /* DWTabBarController.m */; };
-		C13C30F51E6D119B006535BC /* DWEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C13C30F41E6D119B006535BC /* DWEssenceViewController.m */; };
-		C13C30F81E6D11E5006535BC /* DWNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C13C30F71E6D11E5006535BC /* DWNewViewController.m */; };
-		C13C30FB1E6D11F9006535BC /* DWMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C13C30FA1E6D11F9006535BC /* DWMeViewController.m */; };
-		C13C30FE1E6D120B006535BC /* DWFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C13C30FD1E6D120B006535BC /* DWFriendTrendsViewController.m */; };
-		C1E09D211E6D363D00BB408A /* DWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E09D201E6D363D00BB408A /* DWTabBar.m */; };
-		C1E09D241E6D449F00BB408A /* UIView+DWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C1E09D231E6D449F00BB408A /* UIView+DWExtension.m */; };
+		C15EA6B01E6E95FC00B0186B /* DWEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA68B1E6E95FC00B0186B /* DWEssenceViewController.m */; };
+		C15EA6B11E6E95FC00B0186B /* DWFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6911E6E95FC00B0186B /* DWFriendTrendsViewController.m */; };
+		C15EA6B21E6E95FC00B0186B /* DWMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6971E6E95FC00B0186B /* DWMeViewController.m */; };
+		C15EA6B31E6E95FC00B0186B /* DWNewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA69D1E6E95FC00B0186B /* DWNewViewController.m */; };
+		C15EA6B41E6E95FC00B0186B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6A21E6E95FC00B0186B /* AppDelegate.m */; };
+		C15EA6B51E6E95FC00B0186B /* UIBarButtonItem+DWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6A51E6E95FC00B0186B /* UIBarButtonItem+DWExtension.m */; };
+		C15EA6B61E6E95FC00B0186B /* UIView+DWExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6A71E6E95FC00B0186B /* UIView+DWExtension.m */; };
+		C15EA6B71E6E95FC00B0186B /* DWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6AA1E6E95FC00B0186B /* DWTabBarController.m */; };
+		C15EA6B81E6E95FC00B0186B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6AB1E6E95FC00B0186B /* main.m */; };
+		C15EA6B91E6E95FC00B0186B /* DWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6AF1E6E95FC00B0186B /* DWTabBar.m */; };
+		C15EA6BC1E6EA78A00B0186B /* DWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6BB1E6EA78A00B0186B /* DWNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +42,6 @@
 
 /* Begin PBXFileReference section */
 		C13C30BA1E6CF05B006535BC /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C13C30BE1E6CF05B006535BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C13C30C01E6CF05B006535BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C13C30C11E6CF05B006535BC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C13C30C91E6CF05B006535BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C13C30CE1E6CF05B006535BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C13C30D31E6CF05B006535BC /* 百思不得姐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,21 +50,28 @@
 		C13C30DE1E6CF05B006535BC /* 百思不得姐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C13C30E21E6CF05B006535BC /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		C13C30E41E6CF05B006535BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C13C30F01E6D001E006535BC /* DWTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWTabBarController.h; sourceTree = "<group>"; };
-		C13C30F11E6D001E006535BC /* DWTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWTabBarController.m; sourceTree = "<group>"; };
-		C13C30F31E6D119B006535BC /* DWEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWEssenceViewController.h; path = ../DWEssenceViewController.h; sourceTree = "<group>"; };
-		C13C30F41E6D119B006535BC /* DWEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWEssenceViewController.m; path = ../DWEssenceViewController.m; sourceTree = "<group>"; };
-		C13C30F61E6D11E5006535BC /* DWNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWNewViewController.h; path = ../DWNewViewController.h; sourceTree = "<group>"; };
-		C13C30F71E6D11E5006535BC /* DWNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWNewViewController.m; path = ../DWNewViewController.m; sourceTree = "<group>"; };
-		C13C30F91E6D11F9006535BC /* DWMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWMeViewController.h; path = ../DWMeViewController.h; sourceTree = "<group>"; };
-		C13C30FA1E6D11F9006535BC /* DWMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWMeViewController.m; path = ../DWMeViewController.m; sourceTree = "<group>"; };
-		C13C30FC1E6D120B006535BC /* DWFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWFriendTrendsViewController.h; path = ../DWFriendTrendsViewController.h; sourceTree = "<group>"; };
-		C13C30FD1E6D120B006535BC /* DWFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWFriendTrendsViewController.m; path = ../DWFriendTrendsViewController.m; sourceTree = "<group>"; };
-		C1E09D1F1E6D363D00BB408A /* DWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DWTabBar.h; path = ../DWTabBar.h; sourceTree = "<group>"; };
-		C1E09D201E6D363D00BB408A /* DWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DWTabBar.m; path = ../DWTabBar.m; sourceTree = "<group>"; };
-		C1E09D221E6D449F00BB408A /* UIView+DWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+DWExtension.h"; path = "../UIView+DWExtension.h"; sourceTree = "<group>"; };
-		C1E09D231E6D449F00BB408A /* UIView+DWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+DWExtension.m"; path = "../UIView+DWExtension.m"; sourceTree = "<group>"; };
-		C1E09D251E6D44F700BB408A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		C15EA68A1E6E95FC00B0186B /* DWEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWEssenceViewController.h; sourceTree = "<group>"; };
+		C15EA68B1E6E95FC00B0186B /* DWEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWEssenceViewController.m; sourceTree = "<group>"; };
+		C15EA6901E6E95FC00B0186B /* DWFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWFriendTrendsViewController.h; sourceTree = "<group>"; };
+		C15EA6911E6E95FC00B0186B /* DWFriendTrendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWFriendTrendsViewController.m; sourceTree = "<group>"; };
+		C15EA6961E6E95FC00B0186B /* DWMeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWMeViewController.h; sourceTree = "<group>"; };
+		C15EA6971E6E95FC00B0186B /* DWMeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWMeViewController.m; sourceTree = "<group>"; };
+		C15EA69C1E6E95FC00B0186B /* DWNewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWNewViewController.h; sourceTree = "<group>"; };
+		C15EA69D1E6E95FC00B0186B /* DWNewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWNewViewController.m; sourceTree = "<group>"; };
+		C15EA6A11E6E95FC00B0186B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C15EA6A21E6E95FC00B0186B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C15EA6A41E6E95FC00B0186B /* UIBarButtonItem+DWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+DWExtension.h"; sourceTree = "<group>"; };
+		C15EA6A51E6E95FC00B0186B /* UIBarButtonItem+DWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+DWExtension.m"; sourceTree = "<group>"; };
+		C15EA6A61E6E95FC00B0186B /* UIView+DWExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+DWExtension.h"; sourceTree = "<group>"; };
+		C15EA6A71E6E95FC00B0186B /* UIView+DWExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+DWExtension.m"; sourceTree = "<group>"; };
+		C15EA6A91E6E95FC00B0186B /* DWTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWTabBarController.h; sourceTree = "<group>"; };
+		C15EA6AA1E6E95FC00B0186B /* DWTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWTabBarController.m; sourceTree = "<group>"; };
+		C15EA6AB1E6E95FC00B0186B /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C15EA6AC1E6E95FC00B0186B /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C15EA6AE1E6E95FC00B0186B /* DWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWTabBar.h; sourceTree = "<group>"; };
+		C15EA6AF1E6E95FC00B0186B /* DWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWTabBar.m; sourceTree = "<group>"; };
+		C15EA6BA1E6EA78A00B0186B /* DWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWNavigationController.h; sourceTree = "<group>"; };
+		C15EA6BB1E6EA78A00B0186B /* DWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,23 +122,7 @@
 		C13C30BC1E6CF05B006535BC /* 百思不得姐 */ = {
 			isa = PBXGroup;
 			children = (
-				C13C30C01E6CF05B006535BC /* AppDelegate.h */,
-				C13C30C11E6CF05B006535BC /* AppDelegate.m */,
-				C13C30F31E6D119B006535BC /* DWEssenceViewController.h */,
-				C13C30F41E6D119B006535BC /* DWEssenceViewController.m */,
-				C13C30FC1E6D120B006535BC /* DWFriendTrendsViewController.h */,
-				C13C30FD1E6D120B006535BC /* DWFriendTrendsViewController.m */,
-				C13C30F91E6D11F9006535BC /* DWMeViewController.h */,
-				C13C30FA1E6D11F9006535BC /* DWMeViewController.m */,
-				C13C30F61E6D11E5006535BC /* DWNewViewController.h */,
-				C13C30F71E6D11E5006535BC /* DWNewViewController.m */,
-				C13C30F01E6D001E006535BC /* DWTabBarController.h */,
-				C13C30F11E6D001E006535BC /* DWTabBarController.m */,
-				C1E09D1F1E6D363D00BB408A /* DWTabBar.h */,
-				C1E09D201E6D363D00BB408A /* DWTabBar.m */,
-				C1E09D221E6D449F00BB408A /* UIView+DWExtension.h */,
-				C1E09D231E6D449F00BB408A /* UIView+DWExtension.m */,
-				C1E09D251E6D44F700BB408A /* PrefixHeader.pch */,
+				C15EA6871E6E95FC00B0186B /* classes */,
 				C13C30BD1E6CF05B006535BC /* Supporting Files */,
 			);
 			path = "百思不得姐";
@@ -143,7 +133,6 @@
 			children = (
 				C13C30C91E6CF05B006535BC /* Assets.xcassets */,
 				C13C30CE1E6CF05B006535BC /* Info.plist */,
-				C13C30BE1E6CF05B006535BC /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -164,6 +153,195 @@
 				C13C30E41E6CF05B006535BC /* Info.plist */,
 			);
 			path = "百思不得姐UITests";
+			sourceTree = "<group>";
+		};
+		C15EA6871E6E95FC00B0186B /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				C15EA6881E6E95FC00B0186B /* Essence */,
+				C15EA69A1E6E95FC00B0186B /* New */,
+				C15EA68E1E6E95FC00B0186B /* FriendTrend */,
+				C15EA6941E6E95FC00B0186B /* Me */,
+				C15EA6A01E6E95FC00B0186B /* Other */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		C15EA6881E6E95FC00B0186B /* Essence */ = {
+			isa = PBXGroup;
+			children = (
+				C15EA6891E6E95FC00B0186B /* Controller */,
+				C15EA68C1E6E95FC00B0186B /* Model */,
+				C15EA68D1E6E95FC00B0186B /* view */,
+			);
+			path = Essence;
+			sourceTree = "<group>";
+		};
+		C15EA6891E6E95FC00B0186B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C15EA68A1E6E95FC00B0186B /* DWEssenceViewController.h */,
+				C15EA68B1E6E95FC00B0186B /* DWEssenceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C15EA68C1E6E95FC00B0186B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C15EA68D1E6E95FC00B0186B /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C15EA68E1E6E95FC00B0186B /* FriendTrend */ = {
+			isa = PBXGroup;
+			children = (
+				C15EA68F1E6E95FC00B0186B /* Controller */,
+				C15EA6921E6E95FC00B0186B /* Model */,
+				C15EA6931E6E95FC00B0186B /* view */,
+			);
+			path = FriendTrend;
+			sourceTree = "<group>";
+		};
+		C15EA68F1E6E95FC00B0186B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C15EA6901E6E95FC00B0186B /* DWFriendTrendsViewController.h */,
+				C15EA6911E6E95FC00B0186B /* DWFriendTrendsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C15EA6921E6E95FC00B0186B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C15EA6931E6E95FC00B0186B /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C15EA6941E6E95FC00B0186B /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				C15EA6951E6E95FC00B0186B /* Controller */,
+				C15EA6981E6E95FC00B0186B /* Model */,
+				C15EA6991E6E95FC00B0186B /* view */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		C15EA6951E6E95FC00B0186B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C15EA6961E6E95FC00B0186B /* DWMeViewController.h */,
+				C15EA6971E6E95FC00B0186B /* DWMeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C15EA6981E6E95FC00B0186B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C15EA6991E6E95FC00B0186B /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C15EA69A1E6E95FC00B0186B /* New */ = {
+			isa = PBXGroup;
+			children = (
+				C15EA69B1E6E95FC00B0186B /* Controller */,
+				C15EA69E1E6E95FC00B0186B /* Model */,
+				C15EA69F1E6E95FC00B0186B /* view */,
+			);
+			path = New;
+			sourceTree = "<group>";
+		};
+		C15EA69B1E6E95FC00B0186B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C15EA69C1E6E95FC00B0186B /* DWNewViewController.h */,
+				C15EA69D1E6E95FC00B0186B /* DWNewViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C15EA69E1E6E95FC00B0186B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C15EA69F1E6E95FC00B0186B /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		C15EA6A01E6E95FC00B0186B /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				C15EA6A11E6E95FC00B0186B /* AppDelegate.h */,
+				C15EA6A21E6E95FC00B0186B /* AppDelegate.m */,
+				C15EA6A31E6E95FC00B0186B /* Category */,
+				C15EA6A81E6E95FC00B0186B /* Controller */,
+				C15EA6AB1E6E95FC00B0186B /* main.m */,
+				C15EA6AC1E6E95FC00B0186B /* PrefixHeader.pch */,
+				C15EA6AD1E6E95FC00B0186B /* View */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		C15EA6A31E6E95FC00B0186B /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C15EA6A41E6E95FC00B0186B /* UIBarButtonItem+DWExtension.h */,
+				C15EA6A51E6E95FC00B0186B /* UIBarButtonItem+DWExtension.m */,
+				C15EA6A61E6E95FC00B0186B /* UIView+DWExtension.h */,
+				C15EA6A71E6E95FC00B0186B /* UIView+DWExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C15EA6A81E6E95FC00B0186B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C15EA6A91E6E95FC00B0186B /* DWTabBarController.h */,
+				C15EA6AA1E6E95FC00B0186B /* DWTabBarController.m */,
+				C15EA6BA1E6EA78A00B0186B /* DWNavigationController.h */,
+				C15EA6BB1E6EA78A00B0186B /* DWNavigationController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C15EA6AD1E6E95FC00B0186B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C15EA6AE1E6E95FC00B0186B /* DWTabBar.h */,
+				C15EA6AF1E6E95FC00B0186B /* DWTabBar.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,15 +476,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C13C30F81E6D11E5006535BC /* DWNewViewController.m in Sources */,
-				C13C30FB1E6D11F9006535BC /* DWMeViewController.m in Sources */,
-				C13C30F51E6D119B006535BC /* DWEssenceViewController.m in Sources */,
-				C13C30FE1E6D120B006535BC /* DWFriendTrendsViewController.m in Sources */,
-				C1E09D211E6D363D00BB408A /* DWTabBar.m in Sources */,
-				C13C30C21E6CF05B006535BC /* AppDelegate.m in Sources */,
-				C13C30F21E6D001E006535BC /* DWTabBarController.m in Sources */,
-				C13C30BF1E6CF05B006535BC /* main.m in Sources */,
-				C1E09D241E6D449F00BB408A /* UIView+DWExtension.m in Sources */,
+				C15EA6B31E6E95FC00B0186B /* DWNewViewController.m in Sources */,
+				C15EA6B01E6E95FC00B0186B /* DWEssenceViewController.m in Sources */,
+				C15EA6BC1E6EA78A00B0186B /* DWNavigationController.m in Sources */,
+				C15EA6B91E6E95FC00B0186B /* DWTabBar.m in Sources */,
+				C15EA6B71E6E95FC00B0186B /* DWTabBarController.m in Sources */,
+				C15EA6B21E6E95FC00B0186B /* DWMeViewController.m in Sources */,
+				C15EA6B61E6E95FC00B0186B /* UIView+DWExtension.m in Sources */,
+				C15EA6B11E6E95FC00B0186B /* DWFriendTrendsViewController.m in Sources */,
+				C15EA6B41E6E95FC00B0186B /* AppDelegate.m in Sources */,
+				C15EA6B81E6E95FC00B0186B /* main.m in Sources */,
+				C15EA6B51E6E95FC00B0186B /* UIBarButtonItem+DWExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,7 +615,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PREFIX_HEADER = "/Users/dw/Desktop/百思不得姐/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/dw/Desktop/百思不得姐/百思不得姐/classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kwan.-----";
@@ -448,7 +628,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				GCC_PREFIX_HEADER = "/Users/dw/Desktop/百思不得姐/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/dw/Desktop/百思不得姐/百思不得姐/classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kwan.-----";

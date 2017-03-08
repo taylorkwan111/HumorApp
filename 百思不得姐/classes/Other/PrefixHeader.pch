@@ -1,0 +1,22 @@
+//
+//  PrefixHeader.pch
+//  百思不得姐
+//
+//  Created by dw on 2017/3/6.
+//  Copyright © 2017年 dw. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIView+DWExtension.h"
+#import "UIBarButtonItem+DWExtension.h"
+#ifdef DEBUG
+#define DWLog(...) NSLog(__VA_ARGS__)
+#else
+#define DWLog(...)
+#endif
+#define DWLogFunc DWLog(@"%s",__func__);
+#define DWRGBColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define DWGlobalBg DWRGBColor(223,223,223)
+#endif /* PrefixHeader_pch */
