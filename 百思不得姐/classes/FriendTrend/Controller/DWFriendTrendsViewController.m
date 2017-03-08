@@ -8,6 +8,7 @@
 
 #import "DWFriendTrendsViewController.h"
 
+
 @interface DWFriendTrendsViewController ()
 
 @end

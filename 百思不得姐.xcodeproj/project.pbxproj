@@ -21,6 +21,8 @@
 		C15EA6B81E6E95FC00B0186B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6AB1E6E95FC00B0186B /* main.m */; };
 		C15EA6B91E6E95FC00B0186B /* DWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6AF1E6E95FC00B0186B /* DWTabBar.m */; };
 		C15EA6BC1E6EA78A00B0186B /* DWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6BB1E6EA78A00B0186B /* DWNavigationController.m */; };
+		C1A538221E702DA40001852C /* DWFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1A538211E702DA40001852C /* DWFriendTrendsViewController.xib */; };
+		DD2737EA138234DE2E83B655 /* Pods______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C59960962CEF76C6A1F5CE5 /* Pods______.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4C59960962CEF76C6A1F5CE5 /* Pods______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		790C5F0B0E02251BECFC3ED0 /* Pods-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
 		C13C30BA1E6CF05B006535BC /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C13C30C91E6CF05B006535BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C13C30CE1E6CF05B006535BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -72,6 +76,8 @@
 		C15EA6AF1E6E95FC00B0186B /* DWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWTabBar.m; sourceTree = "<group>"; };
 		C15EA6BA1E6EA78A00B0186B /* DWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWNavigationController.h; sourceTree = "<group>"; };
 		C15EA6BB1E6EA78A00B0186B /* DWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWNavigationController.m; sourceTree = "<group>"; };
+		C1A538211E702DA40001852C /* DWFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWFriendTrendsViewController.xib; sourceTree = "<group>"; };
+		ED228BCC7E03CCE6589EE8A1 /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD2737EA138234DE2E83B655 /* Pods______.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,6 +106,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17D6F7112D78D89010E08BE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				790C5F0B0E02251BECFC3ED0 /* Pods-百思不得姐.debug.xcconfig */,
+				ED228BCC7E03CCE6589EE8A1 /* Pods-百思不得姐.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6225963389C1B95D9135F03D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C59960962CEF76C6A1F5CE5 /* Pods______.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C13C30B11E6CF05A006535BC = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +130,8 @@
 				C13C30D61E6CF05B006535BC /* 百思不得姐Tests */,
 				C13C30E11E6CF05B006535BC /* 百思不得姐UITests */,
 				C13C30BB1E6CF05B006535BC /* Products */,
+				17D6F7112D78D89010E08BE9 /* Pods */,
+				6225963389C1B95D9135F03D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -215,6 +241,7 @@
 			children = (
 				C15EA6901E6E95FC00B0186B /* DWFriendTrendsViewController.h */,
 				C15EA6911E6E95FC00B0186B /* DWFriendTrendsViewController.m */,
+				C1A538211E702DA40001852C /* DWFriendTrendsViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -351,9 +378,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C13C30E71E6CF05B006535BC /* Build configuration list for PBXNativeTarget "百思不得姐" */;
 			buildPhases = (
+				F99B05D1C8F43A16870B8C61 /* [CP] Check Pods Manifest.lock */,
 				C13C30B61E6CF05A006535BC /* Sources */,
 				C13C30B71E6CF05A006535BC /* Frameworks */,
 				C13C30B81E6CF05A006535BC /* Resources */,
+				474A61C75B6820680B6887F7 /* [CP] Embed Pods Frameworks */,
+				EFE5D1C923A0BE925B2A0F61 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -451,6 +481,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1A538221E702DA40001852C /* DWFriendTrendsViewController.xib in Resources */,
 				C13C30CA1E6CF05B006535BC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -470,6 +501,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		474A61C75B6820680B6887F7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFE5D1C923A0BE925B2A0F61 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F99B05D1C8F43A16870B8C61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C13C30B61E6CF05A006535BC /* Sources */ = {
@@ -612,6 +691,7 @@
 		};
 		C13C30E81E6CF05B006535BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 790C5F0B0E02251BECFC3ED0 /* Pods-百思不得姐.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -620,11 +700,13 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kwan.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Debug;
 		};
 		C13C30E91E6CF05B006535BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED228BCC7E03CCE6589EE8A1 /* Pods-百思不得姐.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -633,6 +715,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "kwan.-----";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(PODS_ROOT)/**";
 			};
 			name = Release;
 		};
