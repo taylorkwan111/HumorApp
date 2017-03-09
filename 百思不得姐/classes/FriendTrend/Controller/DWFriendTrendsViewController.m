@@ -7,6 +7,7 @@
 //
 
 #import "DWFriendTrendsViewController.h"
+#import "DWRecommentViewController.h"
 
 
 @interface DWFriendTrendsViewController ()
@@ -26,7 +27,8 @@
 
 - (void)friendClick
 {
-    DWLogFunc;
+    DWRecommentViewController *vc=[[DWRecommentViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 
 /*

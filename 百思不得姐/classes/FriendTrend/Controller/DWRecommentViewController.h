@@ -1,5 +1,5 @@
 //
-//  wrtfgvcf.h
+//  DWRecommentViewController.h
 //  百思不得姐
 //
 //  Created by dw on 2017/3/9.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface wrtfgvcf : UIViewController
+@interface DWRecommentViewController : UIViewController
 
 @end

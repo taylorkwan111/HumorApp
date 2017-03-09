@@ -21,7 +21,11 @@
 		C15EA6B81E6E95FC00B0186B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6AB1E6E95FC00B0186B /* main.m */; };
 		C15EA6B91E6E95FC00B0186B /* DWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6AF1E6E95FC00B0186B /* DWTabBar.m */; };
 		C15EA6BC1E6EA78A00B0186B /* DWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6BB1E6EA78A00B0186B /* DWNavigationController.m */; };
-		C17DD02E1E70E7A000FB8963 /* wrtfgvcf.m in Sources */ = {isa = PBXBuildFile; fileRef = C17DD02D1E70E7A000FB8963 /* wrtfgvcf.m */; };
+		C17DD0321E70EFF400FB8963 /* DWRecommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17DD0301E70EFF400FB8963 /* DWRecommentViewController.m */; };
+		C17DD0331E70EFF400FB8963 /* DWRecommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17DD0311E70EFF400FB8963 /* DWRecommentViewController.xib */; };
+		C17DD0361E711F2600FB8963 /* DWRecommendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C17DD0351E711F2600FB8963 /* DWRecommendCategory.m */; };
+		C17DD03A1E71235800FB8963 /* DWRecommendCategoryCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C17DD0381E71235800FB8963 /* DWRecommendCategoryCell.m */; };
+		C17DD03B1E71235800FB8963 /* DWRecommendCategoryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17DD0391E71235800FB8963 /* DWRecommendCategoryCell.xib */; };
 		C1A538221E702DA40001852C /* DWFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1A538211E702DA40001852C /* DWFriendTrendsViewController.xib */; };
 		DD2737EA138234DE2E83B655 /* Pods______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C59960962CEF76C6A1F5CE5 /* Pods______.framework */; };
 /* End PBXBuildFile section */
@@ -77,8 +81,14 @@
 		C15EA6AF1E6E95FC00B0186B /* DWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWTabBar.m; sourceTree = "<group>"; };
 		C15EA6BA1E6EA78A00B0186B /* DWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWNavigationController.h; sourceTree = "<group>"; };
 		C15EA6BB1E6EA78A00B0186B /* DWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWNavigationController.m; sourceTree = "<group>"; };
-		C17DD02C1E70E7A000FB8963 /* wrtfgvcf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wrtfgvcf.h; sourceTree = "<group>"; };
-		C17DD02D1E70E7A000FB8963 /* wrtfgvcf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wrtfgvcf.m; sourceTree = "<group>"; };
+		C17DD02F1E70EFF400FB8963 /* DWRecommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWRecommentViewController.h; sourceTree = "<group>"; };
+		C17DD0301E70EFF400FB8963 /* DWRecommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWRecommentViewController.m; sourceTree = "<group>"; };
+		C17DD0311E70EFF400FB8963 /* DWRecommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWRecommentViewController.xib; sourceTree = "<group>"; };
+		C17DD0341E711F2600FB8963 /* DWRecommendCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWRecommendCategory.h; sourceTree = "<group>"; };
+		C17DD0351E711F2600FB8963 /* DWRecommendCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWRecommendCategory.m; sourceTree = "<group>"; };
+		C17DD0371E71235800FB8963 /* DWRecommendCategoryCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWRecommendCategoryCell.h; sourceTree = "<group>"; };
+		C17DD0381E71235800FB8963 /* DWRecommendCategoryCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWRecommendCategoryCell.m; sourceTree = "<group>"; };
+		C17DD0391E71235800FB8963 /* DWRecommendCategoryCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWRecommendCategoryCell.xib; sourceTree = "<group>"; };
 		C1A538211E702DA40001852C /* DWFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWFriendTrendsViewController.xib; sourceTree = "<group>"; };
 		ED228BCC7E03CCE6589EE8A1 /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,8 +139,6 @@
 		C13C30B11E6CF05A006535BC = {
 			isa = PBXGroup;
 			children = (
-				C17DD02C1E70E7A000FB8963 /* wrtfgvcf.h */,
-				C17DD02D1E70E7A000FB8963 /* wrtfgvcf.m */,
 				C13C30BC1E6CF05B006535BC /* 百思不得姐 */,
 				C13C30D61E6CF05B006535BC /* 百思不得姐Tests */,
 				C13C30E11E6CF05B006535BC /* 百思不得姐UITests */,
@@ -247,6 +255,9 @@
 				C15EA6901E6E95FC00B0186B /* DWFriendTrendsViewController.h */,
 				C15EA6911E6E95FC00B0186B /* DWFriendTrendsViewController.m */,
 				C1A538211E702DA40001852C /* DWFriendTrendsViewController.xib */,
+				C17DD02F1E70EFF400FB8963 /* DWRecommentViewController.h */,
+				C17DD0301E70EFF400FB8963 /* DWRecommentViewController.m */,
+				C17DD0311E70EFF400FB8963 /* DWRecommentViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -254,6 +265,8 @@
 		C15EA6921E6E95FC00B0186B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C17DD0341E711F2600FB8963 /* DWRecommendCategory.h */,
+				C17DD0351E711F2600FB8963 /* DWRecommendCategory.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -261,6 +274,9 @@
 		C15EA6931E6E95FC00B0186B /* view */ = {
 			isa = PBXGroup;
 			children = (
+				C17DD0371E71235800FB8963 /* DWRecommendCategoryCell.h */,
+				C17DD0381E71235800FB8963 /* DWRecommendCategoryCell.m */,
+				C17DD0391E71235800FB8963 /* DWRecommendCategoryCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -487,7 +503,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C1A538221E702DA40001852C /* DWFriendTrendsViewController.xib in Resources */,
+				C17DD0331E70EFF400FB8963 /* DWRecommentViewController.xib in Resources */,
 				C13C30CA1E6CF05B006535BC /* Assets.xcassets in Resources */,
+				C17DD03B1E71235800FB8963 /* DWRecommendCategoryCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -563,14 +581,16 @@
 				C15EA6B31E6E95FC00B0186B /* DWNewViewController.m in Sources */,
 				C15EA6B01E6E95FC00B0186B /* DWEssenceViewController.m in Sources */,
 				C15EA6BC1E6EA78A00B0186B /* DWNavigationController.m in Sources */,
+				C17DD03A1E71235800FB8963 /* DWRecommendCategoryCell.m in Sources */,
 				C15EA6B91E6E95FC00B0186B /* DWTabBar.m in Sources */,
 				C15EA6B71E6E95FC00B0186B /* DWTabBarController.m in Sources */,
 				C15EA6B21E6E95FC00B0186B /* DWMeViewController.m in Sources */,
 				C15EA6B61E6E95FC00B0186B /* UIView+DWExtension.m in Sources */,
+				C17DD0361E711F2600FB8963 /* DWRecommendCategory.m in Sources */,
 				C15EA6B11E6E95FC00B0186B /* DWFriendTrendsViewController.m in Sources */,
 				C15EA6B41E6E95FC00B0186B /* AppDelegate.m in Sources */,
 				C15EA6B81E6E95FC00B0186B /* main.m in Sources */,
-				C17DD02E1E70E7A000FB8963 /* wrtfgvcf.m in Sources */,
+				C17DD0321E70EFF400FB8963 /* DWRecommentViewController.m in Sources */,
 				C15EA6B51E6E95FC00B0186B /* UIBarButtonItem+DWExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
