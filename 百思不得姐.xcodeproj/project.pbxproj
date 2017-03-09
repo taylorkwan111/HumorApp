@@ -21,6 +21,7 @@
 		C15EA6B81E6E95FC00B0186B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6AB1E6E95FC00B0186B /* main.m */; };
 		C15EA6B91E6E95FC00B0186B /* DWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6AF1E6E95FC00B0186B /* DWTabBar.m */; };
 		C15EA6BC1E6EA78A00B0186B /* DWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6BB1E6EA78A00B0186B /* DWNavigationController.m */; };
+		C17DD02E1E70E7A000FB8963 /* wrtfgvcf.m in Sources */ = {isa = PBXBuildFile; fileRef = C17DD02D1E70E7A000FB8963 /* wrtfgvcf.m */; };
 		C1A538221E702DA40001852C /* DWFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1A538211E702DA40001852C /* DWFriendTrendsViewController.xib */; };
 		DD2737EA138234DE2E83B655 /* Pods______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C59960962CEF76C6A1F5CE5 /* Pods______.framework */; };
 /* End PBXBuildFile section */
@@ -76,6 +77,8 @@
 		C15EA6AF1E6E95FC00B0186B /* DWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWTabBar.m; sourceTree = "<group>"; };
 		C15EA6BA1E6EA78A00B0186B /* DWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWNavigationController.h; sourceTree = "<group>"; };
 		C15EA6BB1E6EA78A00B0186B /* DWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWNavigationController.m; sourceTree = "<group>"; };
+		C17DD02C1E70E7A000FB8963 /* wrtfgvcf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wrtfgvcf.h; sourceTree = "<group>"; };
+		C17DD02D1E70E7A000FB8963 /* wrtfgvcf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = wrtfgvcf.m; sourceTree = "<group>"; };
 		C1A538211E702DA40001852C /* DWFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWFriendTrendsViewController.xib; sourceTree = "<group>"; };
 		ED228BCC7E03CCE6589EE8A1 /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -126,6 +129,8 @@
 		C13C30B11E6CF05A006535BC = {
 			isa = PBXGroup;
 			children = (
+				C17DD02C1E70E7A000FB8963 /* wrtfgvcf.h */,
+				C17DD02D1E70E7A000FB8963 /* wrtfgvcf.m */,
 				C13C30BC1E6CF05B006535BC /* 百思不得姐 */,
 				C13C30D61E6CF05B006535BC /* 百思不得姐Tests */,
 				C13C30E11E6CF05B006535BC /* 百思不得姐UITests */,
@@ -565,6 +570,7 @@
 				C15EA6B11E6E95FC00B0186B /* DWFriendTrendsViewController.m in Sources */,
 				C15EA6B41E6E95FC00B0186B /* AppDelegate.m in Sources */,
 				C15EA6B81E6E95FC00B0186B /* main.m in Sources */,
+				C17DD02E1E70E7A000FB8963 /* wrtfgvcf.m in Sources */,
 				C15EA6B51E6E95FC00B0186B /* UIBarButtonItem+DWExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
