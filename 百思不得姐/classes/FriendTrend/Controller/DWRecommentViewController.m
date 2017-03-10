@@ -14,12 +14,13 @@
 #import "DWRecommendCategory.h"
 #import "DWRecommendUserCell.h"
 #import "DWRecommendUser.h"
+#import "MJRefresh.h"
+
+#define DWSelectedCategory self.categories[self.categoryTableView.indexPathForSelectedRow.row]
 
 @interface DWRecommentViewController ()<UITableViewDelegate,UITableViewDataSource>
 /**左边的数据类别**/
 @property(nonatomic,strong)NSArray *categories;
-/**右边的用户数据**/
-@property(nonatomic,strong)NSArray *users;
 /**左边的数据表格**/
 @property (weak, nonatomic) IBOutlet UITableView *categoryTableView;
 /**右边的数据表格**/
@@ -36,6 +37,8 @@ static NSString *const DWUserId=@"user";
    
     //显示指示器
     [self setupTableView];
+    //显示刷新控件
+    [self setupRefrsh];
     [SVProgressHUD showWithStatus:@"加载中"];
     [SVProgressHUD setDefaultMaskType:SVProgressHUDMaskTypeBlack];
     NSMutableDictionary *params=[NSMutableDictionary dictionary];
@@ -64,6 +67,7 @@ static NSString *const DWUserId=@"user";
     }
      ];
 }
+// 显示指示器
 -(void)setupTableView
 {
     //注册
@@ -88,6 +92,48 @@ static NSString *const DWUserId=@"user";
     self.title=@"推荐关注";
     self.view.backgroundColor=DWGlobalBg;
 }
+//显示刷新控件
+-(void)setupRefrsh
+{
+    self.userTableView.mj_footer=[MJRefreshAutoNormalFooter footerWithRefreshingTarget:self refreshingAction:@selector(loadMoreUsers)];
+    self.userTableView.mj_footer.hidden=YES;
+    
+}
+-(void)loadMoreUsers
+{
+    DWRecommendCategory *category=DWSelectedCategory;
+    //发送请求给服务器，请求右边的数据
+    NSMutableDictionary *params=[NSMutableDictionary dictionary];
+    params[@"a"]=@"list";
+    params[@"c"]=@"subscribe";
+    params[@"page"]=@(++category.currentPage);
+    params[@"category_id"]=@([DWSelectedCategory id]);
+    [[AFHTTPSessionManager manager] GET:@"http://api.budejie.com/api/api_open.php" parameters:params progress:^(NSProgress * _Nonnull downloadProgress) {
+        nil;
+    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+        //字典数组->模型数组
+        NSArray *users=[DWRecommendUser mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
+        //添加到当前类别对应的用户数组中
+        [category.users addObjectsFromArray:users];
+        //刷新右边表格
+        [self.userTableView reloadData];
+        
+        if(category.users.count==category.total)
+        {
+            [self.userTableView.mj_footer endRefreshingWithNoMoreData];
+        }
+        else
+        {
+            [self.userTableView.mj_footer endRefreshing];
+        }
+        
+
+        //让底部空间结束刷新
+        [self.userTableView.mj_footer endRefreshing];
+    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+        DWLog(@"%@",error);
+    }];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -100,7 +146,10 @@ static NSString *const DWUserId=@"user";
     }
     else
     {
-        return self.users.count;
+        NSInteger count=[DWSelectedCategory users].count;
+        //每次刷新右边数据时，都控制footer显示或者隐藏
+        self.userTableView.mj_footer.hidden=([DWSelectedCategory users].count==0);
+        return count;
     }
     
 }
@@ -114,7 +163,7 @@ static NSString *const DWUserId=@"user";
     else
     {
         DWRecommendUserCell *cell=[tableView dequeueReusableCellWithIdentifier:DWUserId];
-        cell.user=self.users[indexPath.row];
+        cell.user=[DWSelectedCategory users][indexPath.row];
         return cell;
     }
     
@@ -123,21 +172,44 @@ static NSString *const DWUserId=@"user";
 {
     
     DWRecommendCategory *c=self.categories[indexPath.row];
-    //发送请求给服务器，请求右边的数据
-    NSMutableDictionary *params=[NSMutableDictionary dictionary];
-    params[@"a"]=@"list";
-    params[@"c"]=@"subscribe";
-    params[@"category_id"]=@(c.id);
-    [[AFHTTPSessionManager manager] GET:@"http://api.budejie.com/api/api_open.php" parameters:params progress:^(NSProgress * _Nonnull downloadProgress) {
-        nil;
-    } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
-        self.users=[DWRecommendUser mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
-        //刷新右边表格
+    
+    if(c.users.count)
+    {
+        [self.userTableView reloadData];
+    }
+    else
+    {
+        //赶紧刷新表格，目的是：马上显示当前category的用户数据，不然用户看见上一个cotegory的残留数据，解决网络慢的问题
         [self.userTableView reloadData];
         
-    } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
-        DWLog(@"%@",error);
-    }];
+        //设置当前页码为1
+        c.currentPage=1;
+        //发送请求给服务器，请求右边的数据
+        NSMutableDictionary *params=[NSMutableDictionary dictionary];
+        params[@"a"]=@"list";
+        params[@"c"]=@"subscribe";
+        params[@"category_id"]=@(c.id);
+        params[@"page"]=@(c.currentPage);
+        [[AFHTTPSessionManager manager] GET:@"http://api.budejie.com/api/api_open.php" parameters:params progress:^(NSProgress * _Nonnull downloadProgress) {
+            nil;
+        } success:^(NSURLSessionDataTask * _Nonnull task, id  _Nullable responseObject) {
+            //字典数组->模型数组
+            NSArray *users=[DWRecommendUser mj_objectArrayWithKeyValuesArray:responseObject[@"list"]];
+            //添加到当前类别对应的用户数据类型
+            [c.users addObjectsFromArray:users];
+            //保存总数
+            c.total=[responseObject[@"total"] integerValue];
+            //刷新右边表格
+            [self.userTableView reloadData];
+            if(c.users.count==c.total)
+            {
+                [self.userTableView.mj_footer endRefreshingWithNoMoreData];
+            }
+            
+        } failure:^(NSURLSessionDataTask * _Nullable task, NSError * _Nonnull error) {
+            DWLog(@"%@",error);
+        }];
+    }
 }
 /*
 #pragma mark - Navigation

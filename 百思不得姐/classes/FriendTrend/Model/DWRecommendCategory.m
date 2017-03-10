@@ -9,5 +9,12 @@
 #import "DWRecommendCategory.h"
 
 @implementation DWRecommendCategory
-
+-(NSMutableArray *)users
+{
+    if(!_users)
+    {
+        _users=[NSMutableArray array];
+    }
+    return _users;
+}
 @end
