@@ -20,11 +20,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;/classes/FriendTrend/Controller/DWRecommentViewController.m"
-            timestampString = "510822086.484645"
+            timestampString = "511082148.393965"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "110"
-            endingLineNumber = "110"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
             landmarkName = "-loadMoreUsers"
             landmarkType = "7">
          </BreakpointContent>

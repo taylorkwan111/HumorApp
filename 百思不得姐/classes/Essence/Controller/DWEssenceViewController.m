@@ -7,6 +7,7 @@
 //
 
 #import "DWEssenceViewController.h"
+#import "DWRecommendTagsViewController.h"
 
 @interface DWEssenceViewController ()
 
@@ -26,7 +27,8 @@
 }
 - (void)tagClick
 {
-    DWLogFunc;
+    DWRecommendTagsViewController *tags=[[DWRecommendTagsViewController alloc]init];
+    [self.navigationController pushViewController:tags animated:YES];
 }
 
 /*

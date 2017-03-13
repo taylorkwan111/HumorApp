@@ -10,6 +10,10 @@
 		C13C30CA1E6CF05B006535BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C13C30C91E6CF05B006535BC /* Assets.xcassets */; };
 		C13C30D81E6CF05B006535BC /* _____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C13C30D71E6CF05B006535BC /* _____Tests.m */; };
 		C13C30E31E6CF05B006535BC /* _____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C13C30E21E6CF05B006535BC /* _____UITests.m */; };
+		C13CC5DD1E768B45001707F4 /* DWRecommendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C13CC5DC1E768B45001707F4 /* DWRecommendTagsViewController.m */; };
+		C13CC5E41E768FEC001707F4 /* DWRecommendTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C13CC5E21E768FEC001707F4 /* DWRecommendTagCell.m */; };
+		C13CC5E51E768FEC001707F4 /* DWRecommendTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C13CC5E31E768FEC001707F4 /* DWRecommendTagCell.xib */; };
+		C13CC5ED1E76AB56001707F4 /* DWRecommendTag.m in Sources */ = {isa = PBXBuildFile; fileRef = C13CC5EC1E76AB56001707F4 /* DWRecommendTag.m */; };
 		C15EA6B01E6E95FC00B0186B /* DWEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA68B1E6E95FC00B0186B /* DWEssenceViewController.m */; };
 		C15EA6B11E6E95FC00B0186B /* DWFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6911E6E95FC00B0186B /* DWFriendTrendsViewController.m */; };
 		C15EA6B21E6E95FC00B0186B /* DWMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6971E6E95FC00B0186B /* DWMeViewController.m */; };
@@ -62,6 +66,13 @@
 		C13C30DE1E6CF05B006535BC /* 百思不得姐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C13C30E21E6CF05B006535BC /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		C13C30E41E6CF05B006535BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C13CC5DB1E768B45001707F4 /* DWRecommendTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWRecommendTagsViewController.h; sourceTree = "<group>"; };
+		C13CC5DC1E768B45001707F4 /* DWRecommendTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWRecommendTagsViewController.m; sourceTree = "<group>"; };
+		C13CC5E11E768FEC001707F4 /* DWRecommendTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWRecommendTagCell.h; sourceTree = "<group>"; };
+		C13CC5E21E768FEC001707F4 /* DWRecommendTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWRecommendTagCell.m; sourceTree = "<group>"; };
+		C13CC5E31E768FEC001707F4 /* DWRecommendTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWRecommendTagCell.xib; sourceTree = "<group>"; };
+		C13CC5EB1E76AB56001707F4 /* DWRecommendTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWRecommendTag.h; sourceTree = "<group>"; };
+		C13CC5EC1E76AB56001707F4 /* DWRecommendTag.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWRecommendTag.m; sourceTree = "<group>"; };
 		C15EA68A1E6E95FC00B0186B /* DWEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWEssenceViewController.h; sourceTree = "<group>"; };
 		C15EA68B1E6E95FC00B0186B /* DWEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWEssenceViewController.m; sourceTree = "<group>"; };
 		C15EA6901E6E95FC00B0186B /* DWFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWFriendTrendsViewController.h; sourceTree = "<group>"; };
@@ -229,6 +240,8 @@
 			children = (
 				C15EA68A1E6E95FC00B0186B /* DWEssenceViewController.h */,
 				C15EA68B1E6E95FC00B0186B /* DWEssenceViewController.m */,
+				C13CC5DB1E768B45001707F4 /* DWRecommendTagsViewController.h */,
+				C13CC5DC1E768B45001707F4 /* DWRecommendTagsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -236,6 +249,8 @@
 		C15EA68C1E6E95FC00B0186B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				C13CC5EB1E76AB56001707F4 /* DWRecommendTag.h */,
+				C13CC5EC1E76AB56001707F4 /* DWRecommendTag.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -243,6 +258,9 @@
 		C15EA68D1E6E95FC00B0186B /* view */ = {
 			isa = PBXGroup;
 			children = (
+				C13CC5E11E768FEC001707F4 /* DWRecommendTagCell.h */,
+				C13CC5E21E768FEC001707F4 /* DWRecommendTagCell.m */,
+				C13CC5E31E768FEC001707F4 /* DWRecommendTagCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -519,6 +537,7 @@
 				C17DD0331E70EFF400FB8963 /* DWRecommentViewController.xib in Resources */,
 				C17DD0401E7150FE00FB8963 /* DWRecommendUserCell.xib in Resources */,
 				C13C30CA1E6CF05B006535BC /* Assets.xcassets in Resources */,
+				C13CC5E51E768FEC001707F4 /* DWRecommendTagCell.xib in Resources */,
 				C17DD03B1E71235800FB8963 /* DWRecommendCategoryCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -593,14 +612,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C17DD0461E7155C600FB8963 /* DWRecommendUser.m in Sources */,
+				C13CC5E41E768FEC001707F4 /* DWRecommendTagCell.m in Sources */,
 				C15EA6B31E6E95FC00B0186B /* DWNewViewController.m in Sources */,
 				C15EA6B01E6E95FC00B0186B /* DWEssenceViewController.m in Sources */,
 				C15EA6BC1E6EA78A00B0186B /* DWNavigationController.m in Sources */,
 				C17DD03A1E71235800FB8963 /* DWRecommendCategoryCell.m in Sources */,
+				C13CC5DD1E768B45001707F4 /* DWRecommendTagsViewController.m in Sources */,
 				C15EA6B91E6E95FC00B0186B /* DWTabBar.m in Sources */,
 				C15EA6B71E6E95FC00B0186B /* DWTabBarController.m in Sources */,
 				C15EA6B21E6E95FC00B0186B /* DWMeViewController.m in Sources */,
 				C15EA6B61E6E95FC00B0186B /* UIView+DWExtension.m in Sources */,
+				C13CC5ED1E76AB56001707F4 /* DWRecommendTag.m in Sources */,
 				C17DD0361E711F2600FB8963 /* DWRecommendCategory.m in Sources */,
 				C15EA6B11E6E95FC00B0186B /* DWFriendTrendsViewController.m in Sources */,
 				C15EA6B41E6E95FC00B0186B /* AppDelegate.m in Sources */,
@@ -737,6 +759,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_PREFIX_HEADER = "/Users/dw/Desktop/百思不得姐/百思不得姐/classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -752,6 +775,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_NO_COMMON_BLOCKS = NO;
 				GCC_PREFIX_HEADER = "/Users/dw/Desktop/百思不得姐/百思不得姐/classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
