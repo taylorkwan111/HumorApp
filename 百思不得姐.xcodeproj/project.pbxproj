@@ -25,6 +25,10 @@
 		C15EA6B81E6E95FC00B0186B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6AB1E6E95FC00B0186B /* main.m */; };
 		C15EA6B91E6E95FC00B0186B /* DWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6AF1E6E95FC00B0186B /* DWTabBar.m */; };
 		C15EA6BC1E6EA78A00B0186B /* DWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6BB1E6EA78A00B0186B /* DWNavigationController.m */; };
+		C1726FB71E7788B10054589D /* DWLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1726FB51E7788B10054589D /* DWLoginRegisterViewController.m */; };
+		C1726FB81E7788B10054589D /* DWLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1726FB61E7788B10054589D /* DWLoginRegisterViewController.xib */; };
+		C1726FBB1E7796D10054589D /* DWVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C1726FBA1E7796D10054589D /* DWVerticalButton.m */; };
+		C1726FBE1E77C3B90054589D /* DWTextFiled.m in Sources */ = {isa = PBXBuildFile; fileRef = C1726FBD1E77C3B90054589D /* DWTextFiled.m */; };
 		C17DD0321E70EFF400FB8963 /* DWRecommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C17DD0301E70EFF400FB8963 /* DWRecommentViewController.m */; };
 		C17DD0331E70EFF400FB8963 /* DWRecommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17DD0311E70EFF400FB8963 /* DWRecommentViewController.xib */; };
 		C17DD0361E711F2600FB8963 /* DWRecommendCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = C17DD0351E711F2600FB8963 /* DWRecommendCategory.m */; };
@@ -95,6 +99,13 @@
 		C15EA6AF1E6E95FC00B0186B /* DWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWTabBar.m; sourceTree = "<group>"; };
 		C15EA6BA1E6EA78A00B0186B /* DWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWNavigationController.h; sourceTree = "<group>"; };
 		C15EA6BB1E6EA78A00B0186B /* DWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWNavigationController.m; sourceTree = "<group>"; };
+		C1726FB41E7788B10054589D /* DWLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWLoginRegisterViewController.h; sourceTree = "<group>"; };
+		C1726FB51E7788B10054589D /* DWLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWLoginRegisterViewController.m; sourceTree = "<group>"; };
+		C1726FB61E7788B10054589D /* DWLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWLoginRegisterViewController.xib; sourceTree = "<group>"; };
+		C1726FB91E7796D10054589D /* DWVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWVerticalButton.h; sourceTree = "<group>"; };
+		C1726FBA1E7796D10054589D /* DWVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWVerticalButton.m; sourceTree = "<group>"; };
+		C1726FBC1E77C3B90054589D /* DWTextFiled.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWTextFiled.h; sourceTree = "<group>"; };
+		C1726FBD1E77C3B90054589D /* DWTextFiled.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWTextFiled.m; sourceTree = "<group>"; };
 		C17DD02F1E70EFF400FB8963 /* DWRecommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWRecommentViewController.h; sourceTree = "<group>"; };
 		C17DD0301E70EFF400FB8963 /* DWRecommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWRecommentViewController.m; sourceTree = "<group>"; };
 		C17DD0311E70EFF400FB8963 /* DWRecommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWRecommentViewController.xib; sourceTree = "<group>"; };
@@ -284,6 +295,9 @@
 				C17DD02F1E70EFF400FB8963 /* DWRecommentViewController.h */,
 				C17DD0301E70EFF400FB8963 /* DWRecommentViewController.m */,
 				C17DD0311E70EFF400FB8963 /* DWRecommentViewController.xib */,
+				C1726FB41E7788B10054589D /* DWLoginRegisterViewController.h */,
+				C1726FB51E7788B10054589D /* DWLoginRegisterViewController.m */,
+				C1726FB61E7788B10054589D /* DWLoginRegisterViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -308,6 +322,10 @@
 				C17DD03C1E7150FE00FB8963 /* DWRecommendUserCell.h */,
 				C17DD03D1E7150FE00FB8963 /* DWRecommendUserCell.m */,
 				C17DD03E1E7150FE00FB8963 /* DWRecommendUserCell.xib */,
+				C1726FB91E7796D10054589D /* DWVerticalButton.h */,
+				C1726FBA1E7796D10054589D /* DWVerticalButton.m */,
+				C1726FBC1E77C3B90054589D /* DWTextFiled.h */,
+				C1726FBD1E77C3B90054589D /* DWTextFiled.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -538,6 +556,7 @@
 				C17DD0401E7150FE00FB8963 /* DWRecommendUserCell.xib in Resources */,
 				C13C30CA1E6CF05B006535BC /* Assets.xcassets in Resources */,
 				C13CC5E51E768FEC001707F4 /* DWRecommendTagCell.xib in Resources */,
+				C1726FB81E7788B10054589D /* DWLoginRegisterViewController.xib in Resources */,
 				C17DD03B1E71235800FB8963 /* DWRecommendCategoryCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -613,11 +632,13 @@
 			files = (
 				C17DD0461E7155C600FB8963 /* DWRecommendUser.m in Sources */,
 				C13CC5E41E768FEC001707F4 /* DWRecommendTagCell.m in Sources */,
+				C1726FB71E7788B10054589D /* DWLoginRegisterViewController.m in Sources */,
 				C15EA6B31E6E95FC00B0186B /* DWNewViewController.m in Sources */,
 				C15EA6B01E6E95FC00B0186B /* DWEssenceViewController.m in Sources */,
 				C15EA6BC1E6EA78A00B0186B /* DWNavigationController.m in Sources */,
 				C17DD03A1E71235800FB8963 /* DWRecommendCategoryCell.m in Sources */,
 				C13CC5DD1E768B45001707F4 /* DWRecommendTagsViewController.m in Sources */,
+				C1726FBE1E77C3B90054589D /* DWTextFiled.m in Sources */,
 				C15EA6B91E6E95FC00B0186B /* DWTabBar.m in Sources */,
 				C15EA6B71E6E95FC00B0186B /* DWTabBarController.m in Sources */,
 				C15EA6B21E6E95FC00B0186B /* DWMeViewController.m in Sources */,
@@ -625,6 +646,7 @@
 				C13CC5ED1E76AB56001707F4 /* DWRecommendTag.m in Sources */,
 				C17DD0361E711F2600FB8963 /* DWRecommendCategory.m in Sources */,
 				C15EA6B11E6E95FC00B0186B /* DWFriendTrendsViewController.m in Sources */,
+				C1726FBB1E7796D10054589D /* DWVerticalButton.m in Sources */,
 				C15EA6B41E6E95FC00B0186B /* AppDelegate.m in Sources */,
 				C15EA6B81E6E95FC00B0186B /* main.m in Sources */,
 				C17DD0321E70EFF400FB8963 /* DWRecommentViewController.m in Sources */,

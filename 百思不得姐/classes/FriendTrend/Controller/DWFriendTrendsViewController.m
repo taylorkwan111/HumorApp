@@ -8,6 +8,7 @@
 
 #import "DWFriendTrendsViewController.h"
 #import "DWRecommentViewController.h"
+#import "DWLoginRegisterViewController.h"
 
 
 @interface DWFriendTrendsViewController ()
@@ -29,6 +30,11 @@
 {
     DWRecommentViewController *vc=[[DWRecommentViewController alloc]init];
     [self.navigationController pushViewController:vc animated:YES];
+}
+- (IBAction)loginRegister
+{
+    DWLoginRegisterViewController *login=[[DWLoginRegisterViewController alloc]init];
+    [self presentViewController:login animated:YES completion:nil];
 }
 
 /*
