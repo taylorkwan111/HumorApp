@@ -25,6 +25,8 @@
 		C15EA6B81E6E95FC00B0186B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6AB1E6E95FC00B0186B /* main.m */; };
 		C15EA6B91E6E95FC00B0186B /* DWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6AF1E6E95FC00B0186B /* DWTabBar.m */; };
 		C15EA6BC1E6EA78A00B0186B /* DWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6BB1E6EA78A00B0186B /* DWNavigationController.m */; };
+		C162C85C1E78ECA100A8F39B /* DWPushGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = C162C85B1E78ECA100A8F39B /* DWPushGuideView.m */; };
+		C162C85E1E78ECE800A8F39B /* DWPushGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C162C85D1E78ECE800A8F39B /* DWPushGuideView.xib */; };
 		C1726FB71E7788B10054589D /* DWLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1726FB51E7788B10054589D /* DWLoginRegisterViewController.m */; };
 		C1726FB81E7788B10054589D /* DWLoginRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1726FB61E7788B10054589D /* DWLoginRegisterViewController.xib */; };
 		C1726FBB1E7796D10054589D /* DWVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C1726FBA1E7796D10054589D /* DWVerticalButton.m */; };
@@ -99,6 +101,9 @@
 		C15EA6AF1E6E95FC00B0186B /* DWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWTabBar.m; sourceTree = "<group>"; };
 		C15EA6BA1E6EA78A00B0186B /* DWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWNavigationController.h; sourceTree = "<group>"; };
 		C15EA6BB1E6EA78A00B0186B /* DWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWNavigationController.m; sourceTree = "<group>"; };
+		C162C85A1E78ECA100A8F39B /* DWPushGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWPushGuideView.h; sourceTree = "<group>"; };
+		C162C85B1E78ECA100A8F39B /* DWPushGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWPushGuideView.m; sourceTree = "<group>"; };
+		C162C85D1E78ECE800A8F39B /* DWPushGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWPushGuideView.xib; sourceTree = "<group>"; };
 		C1726FB41E7788B10054589D /* DWLoginRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWLoginRegisterViewController.h; sourceTree = "<group>"; };
 		C1726FB51E7788B10054589D /* DWLoginRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWLoginRegisterViewController.m; sourceTree = "<group>"; };
 		C1726FB61E7788B10054589D /* DWLoginRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWLoginRegisterViewController.xib; sourceTree = "<group>"; };
@@ -437,6 +442,9 @@
 			children = (
 				C15EA6AE1E6E95FC00B0186B /* DWTabBar.h */,
 				C15EA6AF1E6E95FC00B0186B /* DWTabBar.m */,
+				C162C85A1E78ECA100A8F39B /* DWPushGuideView.h */,
+				C162C85B1E78ECA100A8F39B /* DWPushGuideView.m */,
+				C162C85D1E78ECE800A8F39B /* DWPushGuideView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -551,6 +559,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C162C85E1E78ECE800A8F39B /* DWPushGuideView.xib in Resources */,
 				C1A538221E702DA40001852C /* DWFriendTrendsViewController.xib in Resources */,
 				C17DD0331E70EFF400FB8963 /* DWRecommentViewController.xib in Resources */,
 				C17DD0401E7150FE00FB8963 /* DWRecommendUserCell.xib in Resources */,
@@ -631,6 +640,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C17DD0461E7155C600FB8963 /* DWRecommendUser.m in Sources */,
+				C162C85C1E78ECA100A8F39B /* DWPushGuideView.m in Sources */,
 				C13CC5E41E768FEC001707F4 /* DWRecommendTagCell.m in Sources */,
 				C1726FB71E7788B10054589D /* DWLoginRegisterViewController.m in Sources */,
 				C15EA6B31E6E95FC00B0186B /* DWNewViewController.m in Sources */,

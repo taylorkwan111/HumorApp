@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "DWTabBarController.h"
+#import "DWPushGuideView.h"
 @interface AppDelegate ()
 
 @end
@@ -24,6 +25,9 @@
     
     self.window.rootViewController=[[DWTabBarController alloc]init];
     [self.window makeKeyAndVisible];
+    
+    //显示推送引导
+    [DWPushGuideView show];
     return YES;
 }
 
