@@ -39,6 +39,11 @@
 		C17DD03F1E7150FE00FB8963 /* DWRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C17DD03D1E7150FE00FB8963 /* DWRecommendUserCell.m */; };
 		C17DD0401E7150FE00FB8963 /* DWRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C17DD03E1E7150FE00FB8963 /* DWRecommendUserCell.xib */; };
 		C17DD0461E7155C600FB8963 /* DWRecommendUser.m in Sources */ = {isa = PBXBuildFile; fileRef = C17DD0451E7155C600FB8963 /* DWRecommendUser.m */; };
+		C187975E1E7A382B005468AF /* DWAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C187975D1E7A382B005468AF /* DWAllViewController.m */; };
+		C18797611E7A3847005468AF /* DWVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C18797601E7A3847005468AF /* DWVideoViewController.m */; };
+		C18797641E7A385C005468AF /* DWVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C18797631E7A385C005468AF /* DWVoiceViewController.m */; };
+		C18797671E7A3880005468AF /* DWPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C18797661E7A3880005468AF /* DWPictureViewController.m */; };
+		C187976A1E7A3890005468AF /* DWWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C18797691E7A3890005468AF /* DWWordViewController.m */; };
 		C1A538221E702DA40001852C /* DWFriendTrendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1A538211E702DA40001852C /* DWFriendTrendsViewController.xib */; };
 		DD2737EA138234DE2E83B655 /* Pods______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C59960962CEF76C6A1F5CE5 /* Pods______.framework */; };
 /* End PBXBuildFile section */
@@ -124,6 +129,16 @@
 		C17DD03E1E7150FE00FB8963 /* DWRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWRecommendUserCell.xib; sourceTree = "<group>"; };
 		C17DD0441E7155C600FB8963 /* DWRecommendUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWRecommendUser.h; sourceTree = "<group>"; };
 		C17DD0451E7155C600FB8963 /* DWRecommendUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWRecommendUser.m; sourceTree = "<group>"; };
+		C187975C1E7A382B005468AF /* DWAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWAllViewController.h; sourceTree = "<group>"; };
+		C187975D1E7A382B005468AF /* DWAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWAllViewController.m; sourceTree = "<group>"; };
+		C187975F1E7A3847005468AF /* DWVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWVideoViewController.h; sourceTree = "<group>"; };
+		C18797601E7A3847005468AF /* DWVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWVideoViewController.m; sourceTree = "<group>"; };
+		C18797621E7A385C005468AF /* DWVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWVoiceViewController.h; sourceTree = "<group>"; };
+		C18797631E7A385C005468AF /* DWVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWVoiceViewController.m; sourceTree = "<group>"; };
+		C18797651E7A3880005468AF /* DWPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWPictureViewController.h; sourceTree = "<group>"; };
+		C18797661E7A3880005468AF /* DWPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWPictureViewController.m; sourceTree = "<group>"; };
+		C18797681E7A3890005468AF /* DWWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWWordViewController.h; sourceTree = "<group>"; };
+		C18797691E7A3890005468AF /* DWWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWWordViewController.m; sourceTree = "<group>"; };
 		C1A538211E702DA40001852C /* DWFriendTrendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWFriendTrendsViewController.xib; sourceTree = "<group>"; };
 		ED228BCC7E03CCE6589EE8A1 /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -258,6 +273,16 @@
 				C15EA68B1E6E95FC00B0186B /* DWEssenceViewController.m */,
 				C13CC5DB1E768B45001707F4 /* DWRecommendTagsViewController.h */,
 				C13CC5DC1E768B45001707F4 /* DWRecommendTagsViewController.m */,
+				C187975C1E7A382B005468AF /* DWAllViewController.h */,
+				C187975D1E7A382B005468AF /* DWAllViewController.m */,
+				C187975F1E7A3847005468AF /* DWVideoViewController.h */,
+				C18797601E7A3847005468AF /* DWVideoViewController.m */,
+				C18797621E7A385C005468AF /* DWVoiceViewController.h */,
+				C18797631E7A385C005468AF /* DWVoiceViewController.m */,
+				C18797651E7A3880005468AF /* DWPictureViewController.h */,
+				C18797661E7A3880005468AF /* DWPictureViewController.m */,
+				C18797681E7A3890005468AF /* DWWordViewController.h */,
+				C18797691E7A3890005468AF /* DWWordViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -642,18 +667,23 @@
 				C17DD0461E7155C600FB8963 /* DWRecommendUser.m in Sources */,
 				C162C85C1E78ECA100A8F39B /* DWPushGuideView.m in Sources */,
 				C13CC5E41E768FEC001707F4 /* DWRecommendTagCell.m in Sources */,
+				C187975E1E7A382B005468AF /* DWAllViewController.m in Sources */,
 				C1726FB71E7788B10054589D /* DWLoginRegisterViewController.m in Sources */,
 				C15EA6B31E6E95FC00B0186B /* DWNewViewController.m in Sources */,
 				C15EA6B01E6E95FC00B0186B /* DWEssenceViewController.m in Sources */,
+				C187976A1E7A3890005468AF /* DWWordViewController.m in Sources */,
 				C15EA6BC1E6EA78A00B0186B /* DWNavigationController.m in Sources */,
 				C17DD03A1E71235800FB8963 /* DWRecommendCategoryCell.m in Sources */,
 				C13CC5DD1E768B45001707F4 /* DWRecommendTagsViewController.m in Sources */,
+				C18797641E7A385C005468AF /* DWVoiceViewController.m in Sources */,
 				C1726FBE1E77C3B90054589D /* DWTextFiled.m in Sources */,
 				C15EA6B91E6E95FC00B0186B /* DWTabBar.m in Sources */,
+				C18797671E7A3880005468AF /* DWPictureViewController.m in Sources */,
 				C15EA6B71E6E95FC00B0186B /* DWTabBarController.m in Sources */,
 				C15EA6B21E6E95FC00B0186B /* DWMeViewController.m in Sources */,
 				C15EA6B61E6E95FC00B0186B /* UIView+DWExtension.m in Sources */,
 				C13CC5ED1E76AB56001707F4 /* DWRecommendTag.m in Sources */,
+				C18797611E7A3847005468AF /* DWVideoViewController.m in Sources */,
 				C17DD0361E711F2600FB8963 /* DWRecommendCategory.m in Sources */,
 				C15EA6B11E6E95FC00B0186B /* DWFriendTrendsViewController.m in Sources */,
 				C1726FBB1E7796D10054589D /* DWVerticalButton.m in Sources */,
