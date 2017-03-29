@@ -25,6 +25,7 @@
 		C15EA6B81E6E95FC00B0186B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6AB1E6E95FC00B0186B /* main.m */; };
 		C15EA6B91E6E95FC00B0186B /* DWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6AF1E6E95FC00B0186B /* DWTabBar.m */; };
 		C15EA6BC1E6EA78A00B0186B /* DWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EA6BB1E6EA78A00B0186B /* DWNavigationController.m */; };
+		C15EF58D1E8B88A3009BFC7A /* DWTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = C15EF58C1E8B88A3009BFC7A /* DWTopic.m */; };
 		C162C85C1E78ECA100A8F39B /* DWPushGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = C162C85B1E78ECA100A8F39B /* DWPushGuideView.m */; };
 		C162C85E1E78ECE800A8F39B /* DWPushGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C162C85D1E78ECE800A8F39B /* DWPushGuideView.xib */; };
 		C1726FB71E7788B10054589D /* DWLoginRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C1726FB51E7788B10054589D /* DWLoginRegisterViewController.m */; };
@@ -106,6 +107,8 @@
 		C15EA6AF1E6E95FC00B0186B /* DWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWTabBar.m; sourceTree = "<group>"; };
 		C15EA6BA1E6EA78A00B0186B /* DWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWNavigationController.h; sourceTree = "<group>"; };
 		C15EA6BB1E6EA78A00B0186B /* DWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWNavigationController.m; sourceTree = "<group>"; };
+		C15EF58B1E8B88A3009BFC7A /* DWTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWTopic.h; sourceTree = "<group>"; };
+		C15EF58C1E8B88A3009BFC7A /* DWTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWTopic.m; sourceTree = "<group>"; };
 		C162C85A1E78ECA100A8F39B /* DWPushGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DWPushGuideView.h; sourceTree = "<group>"; };
 		C162C85B1E78ECA100A8F39B /* DWPushGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DWPushGuideView.m; sourceTree = "<group>"; };
 		C162C85D1E78ECE800A8F39B /* DWPushGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DWPushGuideView.xib; sourceTree = "<group>"; };
@@ -292,6 +295,8 @@
 			children = (
 				C13CC5EB1E76AB56001707F4 /* DWRecommendTag.h */,
 				C13CC5EC1E76AB56001707F4 /* DWRecommendTag.m */,
+				C15EF58B1E8B88A3009BFC7A /* DWTopic.h */,
+				C15EF58C1E8B88A3009BFC7A /* DWTopic.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -681,6 +686,7 @@
 				C18797671E7A3880005468AF /* DWPictureViewController.m in Sources */,
 				C15EA6B71E6E95FC00B0186B /* DWTabBarController.m in Sources */,
 				C15EA6B21E6E95FC00B0186B /* DWMeViewController.m in Sources */,
+				C15EF58D1E8B88A3009BFC7A /* DWTopic.m in Sources */,
 				C15EA6B61E6E95FC00B0186B /* UIView+DWExtension.m in Sources */,
 				C13CC5ED1E76AB56001707F4 /* DWRecommendTag.m in Sources */,
 				C18797611E7A3847005468AF /* DWVideoViewController.m in Sources */,
